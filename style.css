@@ -1,0 +1,110 @@
+* {
+    border: thin groove rgb(6, 204, 23);
+    text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body{
+    background-color: black;
+    color: red;
+    width:100%;
+    padding:0px;
+    margin:0px;
+}
+
+#header {
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin: 0px;
+    background-color: rgb(230, 52, 215);
+    color: white;
+
+    }
+    
+#Nav {
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin:0px;
+    background-color: rgb(101, 219, 160);
+    color: black;
+}
+#right_card {
+    width:46%;
+    float: right;
+    height: 235px;
+    background-color: grey;
+    font-size: 20px;
+    margin: 1%;
+    overflow: auto;
+    text-align: left;
+    background-color:orangered;
+    color: rgb(66, 201, 255);
+}
+
+#left_card {
+    float:left;
+    width: 46%;
+    padding: 25px 15px 25px 15px;
+    background-color: rgb(136, 0, 0);
+    font-size: 20px;
+    margin: 1%;
+    padding: 1%;
+    color: rgb(31, 158, 63);
+}
+
+#article {
+    float:left;
+    padding: 15px 10px 10px 10px;
+    width: 95%;
+    background-color: rgb(116, 221, 160);
+    color:black;
+}
+
+#head1 {
+    background-color: grey;
+    color: white;
+    margin: 20px;
+    padding: 5px;
+    display:inline;
+    
+}
+
+#head2 {
+    background-color: grey;
+    color: white;
+    margin: 20px;
+    padding: 5px;
+    display:inline;
+
+    
+}
+
+#head3 {
+    background-color: grey;
+    color: white;
+    margin: 20px;
+    padding: 5px;
+    display:inline;
+    
+}
+ .p_block {
+     width: 95%;
+     padding: 10px;
+     background-color: teal;
+     color:black;
+ }
+
+
+#footer {
+    width: 100%;
+    background-color: rgb(235, 66, 207);
+    color: black;
+    padding: 50px 0px 50px 0px;
+    
+}
+
